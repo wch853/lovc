@@ -2,31 +2,16 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/addBook/addBook"
+    "pages/content/content",
+    "pages/video/video",
+    "pages/editVideo/editVideo"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/addBook/addBook",
-        "text": "图书目录"
-      }
-    ]
+    "navigationBarTitleText": "骆音",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   }
 }
